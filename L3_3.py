@@ -138,5 +138,5 @@ for exp in range(experiment):
         L_array_weight = []
 
     plt.show()
-    plt.cla()
+    plt.clf()
     print('Эксперимент', exp, ', лучший - ', best_L, best_L_weight)
